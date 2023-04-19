@@ -27,7 +27,7 @@ boxesEl.btnCreate.addEventListener('click', onCreateCollection);
 boxesEl.btnDestroy.addEventListener('click', onDestroyCollection);
 
 function onCreateCollection() {
-  createBoxes(Number(boxesEl.input.value));
+  createBoxes(boxesEl.input.value);
 }
 
 function onDestroyCollection() {
